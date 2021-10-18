@@ -71,7 +71,7 @@ EvaluationResult(lossValue=1.4855552911758423, metrics={ACCURACY=0.97607421875})
 
 
 ```
-python python/mnist.py
+$ python python/mnist.py
 ```
 
 Outputs:
