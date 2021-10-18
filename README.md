@@ -10,6 +10,8 @@ The test result is intriguing: KotlinDL on a CPU is 3x faster than Python on a R
 
 ## Quick-Start
 
+### Kotkin
+
 1. Import the project into Intellij Idea IDE
 
 2. Run `main.kt` or build a JAR file:
@@ -62,4 +64,12 @@ Extracting 10000 labels from /home/wuhanstudio/kotlndl-mnist/cache/datasets/mnis
 [main] INFO org.jetbrains.kotlinx.dl.api.core.GraphTrainableModel - epochs: 10 loss: 1.4757954 metric: 0.9867333
 EvaluationResult(lossValue=1.4855552911758423, metrics={ACCURACY=0.97607421875})
 
+```
+
+
+### Python
+
+
+```
+python python/mnist.py
 ```
