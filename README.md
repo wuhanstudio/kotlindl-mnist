@@ -4,6 +4,10 @@
 
 This project trains a dense neural network using KotlinDL on the mnist dataset.
 
+The test result is intriguing: KotlinDL on a CPU is 3x faster than Python on a RTX2080.
+
+![](demo.gif)
+
 ## Quick-Start
 
 1. Import the project into Intellij Idea IDE
