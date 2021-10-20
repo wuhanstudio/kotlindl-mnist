@@ -4,7 +4,13 @@
 
 This project trains a dense neural network using both KotlinDL and Python3 on the mnist dataset.
 
-The test result is intriguing: KotlinDL on a i5 CPU (without AVX) is **3x faster** than Python on a RTX2080 GPU.
+The test result is intriguing: KotlinDL on a i5 CPU (without AVX) is **2x faster** than Python on a RTX2080 GPU.
+
+|          | Framework (CUDA 10.0 + cudnn 7.6.5) | Device           | Time (s) | Accuracy |
+| -------- | ----------------------------------- | ---------------- | -------- | -------- |
+| Python   | Tensorflow                          | GPU (RTX 2080)   | 90.90    | 89%      |
+| Python   | Tensorflow                          | CPU (i5-1035G1)  | 75.28    | 88%      |
+| KotlinDL | KotlinDL                            | CPU (i5-1035G1 ) | 44.88    | 98%      |
 
 ![](demo.gif)
 
